@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<style>
+.backBT{
+  text-decoration:none;
+  padding:7px 2px;
+  /* background-image:url("img/cancel_arrow.png"); */
+  /*background: #003b64;*/
+  background-size: 100%;
+  position:fixed;
+  color:#fff;
+  border-radius:2px;
+  font-family: "Verdana", sans-serif;
+  cursor:pointer;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: 55px;
+  font-size: 14px;
+}
+.totalContainer{
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+    height: 40px;
+    width: 55px;
+
+
+}
+.messageText {
+    position: relative;
+    top: -90px;
+    left: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Verdana", sans-serif;
+    opacity: 0.4;
+}
+.messagePrice {
+    opacity: 0.4;
+    position: relative;
+    top: -165px;
+    left: 110px;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Verdana", sans-serif;
+}
+.buttons_confirm{
+    /* background:#dddddd; */
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    overflow:hidden;
+}
+</style>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<body>
+
+<div class="header">
+  <p class="title">Check Out</p>
+</div>
+<div class="backBT">
+        <a href="home.html">< Back</a>
+    </div>
+    <div class="itemCard">
+            <img src="./img/earpuds.png" alt="product" height="100" width="100">
+            <div class="description">
+                <h6>   Sound Isolating Earbuds w/Remote - Black </h6>
+                <p> $44.99 </p>
+            </div>
+        </div>
+        <div class="itemCard2">
+                <img src="./img/sunglass.jpg" alt="product" height="90" width="100">
+                <div id="product2" class="description">
+                    <h6>   Rayban Original Wayfarer Sunglasses </h6>
+                    <p> $49.99 </p>
+                </div>
+            </div>
+            <div class="totalContainer">
+                    <h2 class = "messageText">Total:</h2>
+                    <p class = "messagePrice">$94.98</p>
+            </div>
+<div class="buttons">
+    <div class="confirmBT">
+        <a href="barcode.html">Confirm</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<style>
+.barcodeContainer{
+    opacity:0;
+    margin:auto;
+    width:97%;
+    position:relative;
+    transition: 0.3s;
+    box-shadow: 0 2.5px 5px 1px rgba(0,0,0,0.2);
+    background:#ffffff;
+    top: 170px;
+    height: 250px;
+    width: 300px;
+    padding: 75px 20px;
+}
+.loader {
+    margin: auto;
+    position: relative;
+    /*top: 70vh;*/
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 0.75s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.messageText {
+    position: relative;
+    top: -75px;
+    left: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+}
+.barcodeImageA {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    color:rgb(0, 0, 0);
+    /* height: 90px;
+    width: 90px; */
+}
+
+.itemCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.backBT{
+  text-decoration:none;
+  padding:7px 2px;
+  /* background-image:url("img/cancel_arrow.png"); */
+  /* background: #003b64; */
+  background-size: 100%;
+  position:fixed;
+  color:#fff;
+  border-radius:2px;
+  font-family: "Verdana", sans-serif;
+  cursor:pointer;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: 55px;
+  font-size: 14px;
+}
+.finishBT{
+  left: 15px;
+  top: 230px;
+  text-decoration:none;
+  padding:10px 60px;
+  background:#2b5cad;
+  border:1px solid #00ad2d;
+  position: absolute;;
+  color:#fff;
+  border-radius:2px;
+  text-align:center;
+  font-family: "Verdana", sans-serif;
+  float:center;
+  margin-right:5%;
+  margin-left:5%;
+  cursor:pointer;
+}
+/* .finishContainer{
+    height: 65px;
+    background:#dddddd;
+position:fixed;
+    bottom:0;
+    width:80%;
+    padding-top: 2%;
+    padding-bottom:2%;
+overflow:hidden;
+
+
+} */
+</style>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<!-- <body style></body> = "background-color:rgba(255, 238, 0, 0.329);"> -->
+<body style>
+<div class="header">
+    <p class="title">Purchase Complete!</p>
+</div>
+<div class="backBT">
+    <a href="confirm.html">< Back</a>
+</div>
+<div class="loader" style="top: 39vh;"></div>
+<div class="barcodeContainer">
+    <p class = "messageText">Please show barcode and purchased items to greeter.</p>
+    <div class = "barcodeImageA">
+      <img src="img/barcode.png">
+    </div>
+</div>
+<script src="./js/jquery-3.3.1.js"></script>
+<script src="./js/barcodescript.js"></script>
+
+</body>
+</html>

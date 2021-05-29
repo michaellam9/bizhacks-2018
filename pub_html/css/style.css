@@ -1,0 +1,212 @@
+.header{
+    width:100%;
+    height:8%;
+    text-align:center;
+    background:#003b64;
+    color:#ffffff;
+    position:fixed;
+    top:0;
+    overflow:fixed;
+}
+/*div, #left-padding, #right-padding, html, #hd, #main{
+  background-color: Snow;
+}*/
+#wow, #wow2{
+  opacity:0;
+}
+.logo{
+  position: relative;
+  top:2vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:10vw;
+  height: auto;
+}
+.backBT{
+  z-index:100;
+}
+#helptext{
+  position: relative;
+  text-align:center;
+  top:20vh;
+  margin: auto;
+  width:55%;
+  /*font-weight: bold;*/
+  opacity: 0.5;
+}
+#scanicon{
+  position: relative;
+  top:21vh;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:11vw;
+  height: auto;
+  opacity:0.6;
+}
+.loader {
+    margin: auto;
+    position: relative;
+    top: 16vh;
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 0.75s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#cards{
+    /*background:#dddddd;*/
+    /*margin: auto;*/
+    /*margin: auto;*/
+    /*position: relative;*/
+    /*top: 100vh;*/
+    /*text-align:center;*/
+    /*top:100px;*/
+    /*width:90%;*/
+/*    padding-top: 3%;
+    padding-bottom:3%;*/
+    /*overflow:hidden;*/
+    /*z-index:-1;*/
+}
+.item_list{
+    width:100%;
+    height:80%;
+    margin-top: 8%;
+
+
+    /*background: #ffffff;*/
+    overflow: :auto;
+}
+
+.buttons{
+    background:#dddddd;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    overflow:hidden;
+
+
+}
+.scanBT{
+     padding:10px 59px;
+  background:#2b5cad;
+  /*border:1px solid #00ad2d;*/
+  position:relative;
+  color:#fff;
+  border-radius:2px;
+  text-align:center;
+  margin-right:;
+  font-family: "Verdana", sans-serif;
+  float:left;
+  margin-left:5.5%;
+  cursor:pointer
+}
+.cameraBT {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 24px;
+    width: 100%;
+}
+.addBT{
+     text-decoration:none;
+      padding:10px 45px;
+  background:#2b5cad;
+  /*border:1px solid #00ad2d;*/
+  position:relative;
+  color:#fff;
+  border-radius:2px;
+  text-align:center;
+  margin-right:0;
+  font-family: "Verdana", sans-serif;
+  float:left;
+  margin-left:5%;
+  cursor:pointer;
+
+
+}
+a{
+    text-decoration: none;
+}
+.itemCard{
+    margin: auto;
+    width:97%;
+    height:102px;
+    position:relative;
+    transition: 0.3s;
+    box-shadow: 0 2.5px 5px 1px rgba(0,0,0,0.2);
+    top: 9vh;
+
+}
+.itemCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*#product2{
+  margin-top:2vh;
+}*/
+
+.description{
+    /*margin-left: 2%;*/
+    font-weight: 5px;
+   
+    float:right;
+    padding:0px 20px;
+    text-align: left;
+}
+
+.description h6{
+    font-size: 11px;
+
+}
+.description p{
+    font-size: 13px;
+    text-align: left;
+    color:red;
+}
+
+.itemCard2{
+    margin:auto;
+    width:97%;
+    height:102px;
+    position: relative;
+    top:10vh;
+
+    box-shadow: 0 2.5px 5px 1px rgba(0,0,0,0.2);
+
+}
+
+.itemCard2 img{
+    padding-top:15px;
+    margin-left: 10px;
+}
+
+
+
+.confirmBT{
+    width:90%;
+     padding:10px 60px;
+  background:#2b5cad;
+  /*border:1px solid #00ad2d;*/
+  position:relative;
+  color:#fff;
+  border-radius:2px;
+  text-align:center;
+  margin-right:;
+  font-family: "Verdana", sans-serif;
+  float:left;
+  margin-left:5%;
+  cursor:pointer
+}
