@@ -1,6 +1,6 @@
 # BizHacks 2018 Project
 
-We won BizHacks 2018 with this project. Each team member of 5 received a MacBook Pro. 
+We won BizHacks 2018 over 40 teams with this project. Each team member of 5 received a MacBook Pro. 
 
 See `BizHacksFinal.pdf` for presentation deck.
 
